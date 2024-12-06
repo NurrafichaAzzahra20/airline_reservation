@@ -25,10 +25,10 @@ if(isset($_POST['simpan'])){
     // Periksa apakah query berhasil dijalankan
     if ($query) {
         // Jika berhasil, simpan notifikasi keberhasilan ke dalam session
-        $_SESSION['notifikasi'] = "Data penerbangan berhasil diperbarui!";
+        $_SESSION['notifikasi'] = "Data penerbangan berhasil ditambahkan!";
     } else {
         // Jika gagal, simpan notifikasi kegagalan ke dalam session
-        $_SESSION['notifikasi'] = "Data penerbangan gagal diperbarui!";
+        $_SESSION['notifikasi'] = "Data penerbangan gagal ditambahkan!";
     }
 
     // Redirect ke halaman index.php

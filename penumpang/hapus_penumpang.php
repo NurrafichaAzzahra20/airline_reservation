@@ -19,10 +19,10 @@ if (isset($_GET['penumpang_id'])) {
       // Mengecek apakah query berhasil dijalankan
     if ($query) {
         // Jika berhasil, simpan notifikasi keberhasilan ke dalam session
-        $_SESSION['notifikasi'] = "Data penumpang berhasil ditambahkan!";
+        $_SESSION['notifikasi'] = "Data penumpang berhasil dihapus!";
     } else {
         // Jika gagal, simpan notifikasi kegagalan ke dalam session
-        $_SESSION['notifikasi'] = "Data penumpang gagal ditambahkan!";
+        $_SESSION['notifikasi'] = "Data penumpang gagal dihapus!";
     }
 
     // Mengalihkan pengguna kembali ke halaman index.php
